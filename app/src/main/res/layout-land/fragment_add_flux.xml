@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007CBCB6"
+    android:backgroundTint="#A86AB3"
+    android:orientation="horizontal"
+    tools:context=".AddFlux">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/ajoutflux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="50dp"
+            android:background="#001A629C"
+            android:backgroundTint="#002D6971"
+            android:text="@string/ajouter_un_flux"
+            android:textColor="#38A1D1"
+            android:textSize="24sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/source"
+                android:textColor="#1C1B1B"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/sourceedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+
+                android:importantForAutofill="no"
+                android:inputType="text"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:id="@+id/tag"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="80dp"
+               android:layout_marginTop="20dp"
+               android:text="@string/tag"
+               android:textColor="#1E1C1C"
+               android:textSize="18sp" />
+
+           <EditText
+               android:id="@+id/tagedit"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="100dp"
+               android:layout_marginTop="10dp"
+               android:ems="10"
+               android:importantForAutofill="no"
+               android:inputType="text"
+               tools:ignore="LabelFor" />
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/url"
+                android:textColor="#1B1919"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/urledit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/enregistrer"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="30dp"
+            android:background="#E82E2E"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#F44336"
+            android:text="@string/enregistrer" />
+    </LinearLayout>
+
+
+</RelativeLayout>

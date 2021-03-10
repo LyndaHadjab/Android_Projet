@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/RSS"
+            android:icon="@drawable/ic_baseline_add_24"
+            android:title="Add Flux" />
+        <item
+            android:id="@+id/telecharger"
+            android:icon="@drawable/download"
+            android:title="Téléchargement" />
+        <item
+            android:id="@+id/critere"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Critères d'affichage"
+            >
+            <menu>
+                <item
+                    android:id="@+id/tout"
+                    android:icon="@android:drawable/ic_menu_slideshow"
+                    android:title="Afficher Tout">
+
+                </item>
+                <item
+                    android:id="@+id/nouveau"
+                    android:icon="@drawable/ic_baseline_search_24"
+                    android:title="Afficher nouveau">
+
+                </item>
+                <item
+                    android:id="@+id/partext"
+                    android:icon="@drawable/ic_baseline_pageview_24"
+
+                    android:title="Afficher par texte">
+
+                </item>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

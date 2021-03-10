@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ProjetAndroid</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="t_l_charger_option_1">Télécharger : option 1</string>
+    <string name="choisir_les_fichiers_t_l_charger_dans_un_temps_pr_ciser">choisir les fichiers à télécharger dans un temps préciser</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="url">URL</string>
+    <string name="ajouter_un_flux">Ajouter un flux</string>
+    <string name="source">source</string>
+    <string name="tag">Tag</string>
+    <string name="todo">TODO</string>
+    <string name="h">h</string>
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+
+
+
+</resources>
